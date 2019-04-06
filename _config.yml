@@ -10,28 +10,28 @@
 # -- replace "open-sdg-data-starter" with "my-awesome-data-repo"
 
 # Replace this title as needed.
-title: Indicators For The Sustainable Development Goals
+title: Indicators For The Sustainable Development Goals; Orkney
 # Replace the baseurl with the name of this repository.
 baseurl: "/open-sdg-site-starter"
 url: ""
 data_dir: data
 environment: staging
 # Replace my-github-org and open-sdg-data-starter as needed.
-remotedatabaseurl: "https://my-github-org.github.io/open-sdg-data-starter"
+remotedatabaseurl: "https://michaelalastairbutler.github.io/open-sdg-data-starter"
 
 jekyll_get_json:
   - data: meta
     # Replace my-github-org and open-sdg-data-starter as needed.
-    json: 'https://my-github-org.github.io/open-sdg-data-starter/meta/all.json'
+    json: 'https://michaelalastairbutler.github.io/open-sdg-data-starter/meta/all.json'
   - data: headlines
     # Replace my-github-org and open-sdg-data-starter as needed.
-    json: 'https://my-github-org.github.io/open-sdg-data-starter/headline/all.json'
+    json: 'https://michaelalastairbutler.github.io/open-sdg-data-starter/headline/all.json'
   - data: schema
     # Replace my-github-org and open-sdg-data-starter as needed.
-    json: 'https://my-github-org.github.io/open-sdg-data-starter/meta/schema.json'
+    json: 'https://michaelalastairbutler.github.io/open-sdg-data-starter/meta/schema.json'
   - data: reporting
     # Replace my-github-org and open-sdg-data-starter as needed.
-    json: 'https://my-github-org.github.io/open-sdg-data-starter/stats/reporting.json'
+    json: 'https://michaelalastairbutler.github.io/open-sdg-data-starter/stats/reporting.json'
   - data: translations
     json: 'https://open-sdg.github.io/sdg-translations/translations-0.5.0.json'
 
@@ -43,16 +43,16 @@ twitter: 'MyTwitterAccount'
 
 # Replace the email addresses below.
 email_contacts:
-  questions: test@example.com
-  suggestions: test@example.com
-  functional: test@example.com
+  questions: m_a_butler@hotmail.com
+  suggestions: m_a_butler@hotmail.com
+  functional: m_a_butler@hotmail.com
 
 # Github Repo for Data
 # Replace this value as needed.
 repo_name: open-sdg-data-starter
 branch: develop
 # Replace this value as needed.
-org_name: my-github-org
+org_name: michaelalastairbutler
 
 # Build settings
 markdown: kramdown
@@ -63,8 +63,8 @@ exclude: [vendor, scripts, remotedata]
 # International Support
 # Eg name: Australia and adjective: Australian
 country:
-  name: Australia
-  adjective: Australian
+  name: Orkney
+  adjective: Orcadian
 
 # Pages
 collections:
