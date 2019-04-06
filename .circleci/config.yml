@@ -72,7 +72,7 @@ jobs:
           command: bash scripts/test/html_proofer_staging.sh
       - add_ssh_keys:
           fingerprints:
-            - "PASTE_STAGING_FINGERPRINT_HERE"
+            - "25:f0:68:6e:f0:19:5d:9a:ca:6f:08:90:70:0b:fa:a4"
       - run:
           name: Deploy to Github
           command: bash scripts/deploy/circleci/deploy_staging.sh
