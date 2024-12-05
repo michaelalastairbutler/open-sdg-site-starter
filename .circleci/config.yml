@@ -3,7 +3,7 @@ version: 2
 jobs:
   test:
     docker:
-      - image: circleci/ruby:2.5.1
+      - image: cimg/ruby:3.3.22
     working_directory: ~/repo
     steps:
       - checkout
@@ -24,7 +24,7 @@ jobs:
           command: bash scripts/test/html_proofer_staging.sh
   deploy_prod:
     docker:
-      - image: circleci/ruby:2.5.1
+      - image: cimg/ruby:3.3.22
     working_directory: ~/repo
     steps:
       - checkout
@@ -51,7 +51,7 @@ jobs:
           command: bash scripts/deploy/circleci/deploy_prod.sh
   deploy_staging:
     docker:
-      - image: circleci/ruby:2.5.1
+      - image: cimg/ruby:3.3.22
     working_directory: ~/repo
     steps:
       - checkout
